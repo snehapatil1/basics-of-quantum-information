@@ -5,9 +5,6 @@ Basics of quantum information
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install qiskit
-pip install qiskit-ibm-runtime
-pip install jupyter
-pip install sympy
+pip install requirements.txt
 jupyter notebook notebook.ipynb
 ```
